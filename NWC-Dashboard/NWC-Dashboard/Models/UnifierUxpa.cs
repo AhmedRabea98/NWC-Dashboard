@@ -1,0 +1,127 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace NWC_Dashboard.Models
+{
+    public partial class UnifierUxpa
+    {
+        public int Id { get; set; }
+        public string RecordNo { get; set; }
+        public string Title { get; set; }
+        public DateTime? DueDate { get; set; }
+        public DateTime? EndDate { get; set; }
+        public DateTime? UuuRecordLastUpdateDate { get; set; }
+        public int? ProcessStatus { get; set; }
+        public string Status { get; set; }
+        public int? CreatorId { get; set; }
+        public int? ProjectId { get; set; }
+        public int? AttachCnt { get; set; }
+        public int? Reason { get; set; }
+        public decimal? Currencyrate { get; set; }
+        public decimal? UsdCurrencyrate { get; set; }
+        public int? Xid { get; set; }
+        public int? UuuContentId { get; set; }
+        public string Uvefaxtb16 { get; set; }
+        public decimal? ConReadvancedPayment { get; set; }
+        public string Uveprimarycontacttb64 { get; set; }
+        public string Upavendorpayappnotb120 { get; set; }
+        public string Upocontracttypepd { get; set; }
+        public string Ugencitytxt50 { get; set; }
+        public string UuuDmPublishPath { get; set; }
+        public DateTime? UuuCreationDate { get; set; }
+        public string Uvephonetb64 { get; set; }
+        public int? Uveminoritybuscb { get; set; }
+        public decimal? PayAdvacPayAmout { get; set; }
+        public string Uvevendornametb50 { get; set; }
+        public string Ugenprojectnumber { get; set; }
+        public DateTime? UuuEffectiveDate { get; set; }
+        public string Ugenclustertname { get; set; }
+        public decimal? Upatotearnlessretainageca { get; set; }
+        public DateTime? BcProjectStartDate { get; set; }
+        public DateTime? Upacontractdatedp { get; set; }
+        public decimal? OmCost { get; set; }
+        public DateTime? Upainvoicedatedop { get; set; }
+        public decimal? PappReleaseAmount { get; set; }
+        public decimal? Ucontpapvddeductchgqe { get; set; }
+        public decimal? CVatTotal { get; set; }
+        public decimal? Upabaltofinishretainageca { get; set; }
+        public string Ucontitlesd { get; set; }
+        public string Ugenzipcodetxt16 { get; set; }
+        public string Uveemailtb120 { get; set; }
+        public string Ugenaddress3txt120 { get; set; }
+        public string Ugenprojectname { get; set; }
+        public decimal? Uconapprovedchangesamtqe { get; set; }
+        public DateTime? Upacheckprocdatedop { get; set; }
+        public string Uregioncbuname { get; set; }
+        public decimal? PaymentAfterVat { get; set; }
+        public decimal? Uconapvddeductchgqe { get; set; }
+        public string Ugencontactnametb { get; set; }
+        public DateTime? PayWorkStart { get; set; }
+        public string Ugenaddress2txt120 { get; set; }
+        public string Upocontracttermsmlt4000 { get; set; }
+        public decimal? Uconapvdaddchgqe { get; set; }
+        public DateTime? Upapaymentduedatedop { get; set; }
+        public int? Refid { get; set; }
+        public decimal? Upasumofretainageca { get; set; }
+        public string PiVendorName { get; set; }
+        public string Ugenaddress1txt120 { get; set; }
+        public decimal? Uconprvapvddeductchgqe { get; set; }
+        public decimal? RevisionNo { get; set; }
+        public decimal? Upatotalcompltodateca { get; set; }
+        public string Upachecknotb50 { get; set; }
+        public DateTime? BcProjectEndDate { get; set; }
+        public string PaName { get; set; }
+        public decimal? Uconrevisedcontctamtca { get; set; }
+        public string Ugencountrypd { get; set; }
+        public string PayScopeOfWork { get; set; }
+        public DateTime? PayWorkEnd { get; set; }
+        public decimal? RevisionTotal { get; set; }
+        public decimal? Uconprvapvdaddchgqe { get; set; }
+        public decimal? Uparetainagepctda { get; set; }
+        public string PaSeqNo { get; set; }
+        public decimal? CVat { get; set; }
+        public decimal? RevisionSeq4 { get; set; }
+        public decimal? Upacurrpaymentdueca { get; set; }
+        public decimal? ConAdvancedPayment { get; set; }
+        public string Upocontractdescmlt4000 { get; set; }
+        public decimal? RevisionSeq1 { get; set; }
+        public decimal? RevisionSeq2 { get; set; }
+        public decimal? PaAdvpayrec { get; set; }
+        public decimal? Amount { get; set; }
+        public decimal? Upasumprevpayappca { get; set; }
+        public decimal? Ucontpapvdaddchgqe { get; set; }
+        public decimal? PappReleaseAmount1 { get; set; }
+        public int? Uvewomanownedcb { get; set; }
+        public int? Uvedisadvantagedbuscb { get; set; }
+        public decimal? Uconoriginalcontrctamtca { get; set; }
+        public decimal? ComAdvpaymenperc { get; set; }
+        public decimal? PayOffAmount { get; set; }
+        public int? Currencyid { get; set; }
+        public DateTime? Upacheckdatedop { get; set; }
+        public string Uvevendoridtb16 { get; set; }
+        public string Ugenstatepd { get; set; }
+        public string Uconcontractnumbertxt16 { get; set; }
+        public DateTime? IaCoD { get; set; }
+        public int? IaScN { get; set; }
+        public DateTime? IaScD { get; set; }
+        public decimal? TotalcontractAfterChange { get; set; }
+        public decimal? PayPen { get; set; }
+        public decimal? PayPercIn { get; set; }
+        public DateTime? NcrPmDate { get; set; }
+        public int? NcrNwcPm { get; set; }
+        public int? IaCoN { get; set; }
+        public int? PayNoIn { get; set; }
+        public string FypNwcProjectType2 { get; set; }
+        public decimal? BcProjectEstimatedCosts { get; set; }
+        public string FypNwcCity { get; set; }
+        public decimal? PaAdvanceAmount { get; set; }
+        public decimal? PaPrevadvanceAmount { get; set; }
+        public decimal? PaRemaAdvanceAmount { get; set; }
+        public decimal? PaRedAdvanceAmount { get; set; }
+        public decimal? PaTotAdvanceAmount { get; set; }
+        public decimal? PaTotredvadvAmount { get; set; }
+        public decimal? PaPreredvadvAmount { get; set; }
+    }
+}
